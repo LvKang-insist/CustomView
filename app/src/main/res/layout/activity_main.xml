@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+   <com.admin.view_core.view.CustomVolumeControlBar
+       android:id="@+id/controlBar"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       app:secondColor="#000000"
+       app:circleWidth="10dp"
+       app:splitSize="20"
+       app:dotCount="10"
+       app:firstColor="#999999"
+       app:bg="@drawable/ic_launcher"/>
+
+</RelativeLayout>

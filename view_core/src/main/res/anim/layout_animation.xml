@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/rotate"
+    android:animationOrder="normal"
+    android:delay="0.3"/>
+
+<!-- animation 是指定动画
+     animationOrder 是子元素的动画顺序有三种选项
+                    normal 表示顺序显示
+                    reverse 表示逆向显示
+                    random 表示随机播放入场动画
+     delayp 是子元素开始动画的事件延迟，比如子元素入场动画
+     的周期为 300ms ，那么0.5 就代表每一个子元素要延迟
+     150ms 才能播放入场动画。总的来时 ，第一个子元素延迟
+     150ms 播放动画，第二个就是 300ms 播放动画，依次类推-->
